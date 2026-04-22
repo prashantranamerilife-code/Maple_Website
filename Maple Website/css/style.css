@@ -1,0 +1,550 @@
+
+body {
+      background: linear-gradient(180deg, #ffffff, #ffffff);
+      font-family: Arial, sans-serif;
+    }
+
+    .section-title {
+      font-size: 28px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .section-subtitle {
+      text-align: left;
+      max-width: 1300px;
+      margin: 40px auto 20px;
+      color: #393987;
+      font-size: 20px;
+    }
+
+
+    .feature-section {
+
+      background: #FEF5ED;  
+      /* background: url('images/bg1.png'); */
+      padding: 40px 40px;
+      border-radius: 15px;
+    }
+
+    .feature-card {
+      background: #ffffff;
+      border-radius: 15px;
+      padding: 40px 25px;
+      text-align: center;
+      height: 100%;
+      transition: 0.3s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .feature-icon {
+      width: 45px;
+      margin-bottom: 15px;
+    }
+
+    .feature-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #3b3b8f;
+      margin-bottom: 5px;
+    }
+
+    .feature-text {
+      font-size: 16px;
+      color: #000000;
+    }
+
+   
+
+
+    .feature-card-train {
+      
+      border-radius: 15px;
+      padding: 40px 25px;
+      text-align: left;
+      height: 100%;
+      transition: 0.3s;
+    }
+
+
+    .feature-card-yellow-bg {
+      
+      border-radius: 15px;
+      padding: 20px 25px;
+      text-align: left;
+      height: 100%;
+      transition: 0.3s;
+      
+    }
+
+
+
+
+    .feature-frame {
+
+      background: #ffffff;  
+      border-radius: 15px;
+    }
+
+    .feature-card-frame-number {
+      
+      border-radius: 15px;
+     
+      text-align: left;
+      height: 100%;
+      transition: 0.3s;
+    }
+
+
+
+    .feature-card-amenities {
+      
+      position: relative;
+      text-align: center;
+      height: 100%;
+      transition: 0.3s;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+
+     .section-subtitle-amenities {
+      text-align: left;
+      margin: 50px auto 20px;
+      max-width: 1100px;
+      color: #393987;
+      font-size: 20px;
+    }
+
+
+    /* Position text over existing white box */
+    .img-text {
+      position: absolute;
+      bottom: 40px;   /* adjust based on your image */
+      right: -6px;    /* adjust based on your image */
+      width: 200px;   /* match white box width */
+      font-size: 16px;
+      font-weight: 500;
+      color: #000;
+    }
+
+
+
+
+  .feature-wrapper {
+  background-color: #3b3b8f; /* purple bg */
+  border-radius: 10px;
+}
+
+.feature-card-yellow-bg {
+  background: #FEF5ED; 
+  border-radius: 12px;
+  padding: 15px 10px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.feature-card-yellow-bg:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.feature-text-yellow-card {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2c2c2c;
+  text-align:justify;
+ 
+}
+
+
+.feature-card-gallery {
+      
+      position: relative;
+      text-align: center;
+      transition: 0.3s;
+      scale: 90%;
+  
+    }
+
+    .text-gallery{
+      font-size: 40px;
+    }
+
+
+.footer{
+background: linear-gradient(90deg,#FEF5ED,#FEF5ED);
+color:#000000;
+padding:60px 0;
+position:relative;
+overflow:hidden;
+}
+
+.footer-logo{
+font-size:32px;
+font-weight:700;
+letter-spacing:2px;
+}
+
+.footer small{
+color:#000000;
+}
+
+.footer h6{
+color:#000000;
+font-weight:600;
+margin-bottom:20px;
+}
+
+.footer a{
+color:#000000;
+text-decoration:none;
+display:block;
+margin-bottom:10px;
+}
+
+.footer a:hover{
+color:#3b3b8f;
+}
+
+.footer-contact i{
+margin-right:10px;
+color:#000000;
+}
+
+.newsletter-title{
+font-size:16px;
+font-weight:0px;
+
+}
+
+.newsletter-input{
+
+border:none;
+padding:12px 20px;
+width:100%;
+}
+
+.newsletter-input-description{
+
+border: 2px;;
+padding:12px 20px;
+width:100%;
+color:#000000
+}
+
+.submit-btn-contact-us{
+background:#3b3b8f;
+border:none;
+color: #ffffff;
+padding: 10px;
+margin-top:20px;
+margin-bottom:20px;
+width:50%;
+margin-right: 200px;
+}
+
+.section-subtitle-contact-us {
+      text-align: left;
+      max-width: 1300px;
+      margin: 40px auto 20px;
+      color: #393987;
+      font-size: 30px;
+}
+
+
+.subscribe-btn{
+background:#3b3b8f;
+border:none;
+color: #ffffff;
+padding: 10px;
+margin-top:10px;
+width:30%;
+}
+
+.social-icons a{
+color: #000000;
+margin-right:15px;
+font-size:18px;
+}
+
+.copyright{
+text-align:left;
+margin-top:40px;
+font-size:14px;
+color:#000000;
+}
+
+.footer-shape{
+position:absolute;
+right:50px;
+bottom:0;
+opacity:.15;
+height:220px;
+}
+
+
+
+.nav-btn{
+      width:45px;
+      height:45px;
+      border-radius:50%;
+      border:1px solid #333;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      }
+
+      .gallery-font-size-web{
+
+      font-size: 40px;
+      
+    }
+
+
+    .hero-header-text{
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+
+    .hero-header-main-text{
+      font-size: 80px;
+      
+      
+    }
+
+    .hero-bottom-text{
+      font-size: 20px;
+    }
+
+    .reason-to-invest-text-web{
+      margin-left: -880px;
+    }
+
+
+
+ @media (max-width: 576px) and (max-width: 768px) {
+
+
+  .reason-to-invest-text-low-res{
+      margin-left: -30px;
+    }
+  
+
+      .precision-text-low-res{
+        margin-bottom: -30px;
+      }
+      
+      .price-text{
+      font-size: 20px;
+      margin: 8px;
+      
+    }
+
+    .hero-header-text-low-res{
+      font-size: 16px;
+      margin-bottom: 50px;
+    }
+
+    .hero-header-main-text-low-res{
+      font-size: 40px;
+      
+      
+    }
+
+    .hero-bottom-text-low-res{
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+
+
+    .section-subtitle {
+      text-align: left;
+      max-width: 1300px;
+      margin: 20px auto 10px;
+      color: #393987;
+      font-size: 18px;
+      padding: 16pX;
+      
+    }
+
+
+    .section-subtitle-zerotwo-text {
+      
+      margin-left: -12px;
+     
+    }
+
+    
+    .feature-card-train {
+      
+      border-radius: 15px;
+      text-align: left;
+      height: 100%;
+      transition: 0.3s;
+      
+    }
+
+   
+
+    .feature-section {
+
+      background: #FEF5ED;  
+      /* background: url('images/bg1.png'); */
+      padding: 0px 0px;
+      border-radius: 15px;
+      
+    }
+
+    .feature-text {
+      font-size: 16px;
+      color: #000000;
+      
+    }
+
+    .feature-text-gapping-low-res{
+
+      margin-top: -30px;
+    }
+
+    .feature-text-subtitle-gapping-low-res{
+
+      margin-top: -30px;
+    }
+
+    .feature-image-gapping-low-res{
+
+      margin-top: 40px;
+    }
+
+
+    .feature-card-five-icons{
+
+     
+      background: #ffffff;
+      border-radius: 15px;
+      padding: 40px 25px;
+      text-align: center;
+      height: 100%;
+      transition: 0.3s;
+      scale: 90%;
+    }
+
+
+
+    .img-aminities-low-res {
+      margin-bottom: 30px;
+    }
+
+    .img-text-aminities-low-res {
+      position: absolute;
+      bottom: 25px;   /* adjust based on your image */
+      right: 0px;    /* adjust based on your image */
+      width: 100px;   /* match white box width */
+      font-size: 10px;
+      font-weight: 500;
+      color: #000;
+
+    }
+
+
+   .img-aminities-low-res-img{
+
+      width: 120%;
+      margin-left: -26px;
+
+   }
+
+   .img-aminities-low-res-img-margin{
+
+     margin-top: -26px;
+     
+   }
+
+   .img-aminities-low-res-text{
+
+     
+     position: absolute;
+      right: 0px;    /* adjust based on your image */
+      width: 100px;   /* match white box width */
+      font-size: 10px;
+      font-weight: 500;
+      color: #000;
+      margin-bottom: -40px;
+
+
+   }
+
+   .img-ports-communication-margin{
+      margin-top: -2px;
+   }
+
+   
+    .innovation-capital-low-res{
+
+      height: 150px;
+    }
+
+    .gallery-font-size{
+
+      font-size: xx-large;
+      margin-top: -40px;
+    }
+
+
+    .section-subtitle-contact-us-low-res{
+      margin-left: 10px;
+    }
+
+    .headquarters-text-low-res{
+
+      margin-left: -120px;
+
+    }
+
+    .communication-low-res{
+      margin-left: -14px;
+    }
+
+    .map-low-res{
+      margin-left: -110px;
+      height: auto;
+      width: 260%;
+    }
+
+
+    .footer-text-gapping{
+
+      margin-top: 50px;
+
+    }
+
+   .faq-left-right{
+
+
+    scale: 96%;
+
+   }
+
+
+    .feature-text-gapping{
+      margin-top: -50px;
+    }
+
+  }
+
+    
+
+  
+
+  
+
+    
